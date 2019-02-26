@@ -59,7 +59,7 @@ public class MyTaxi {
 
         @After
         public  void Teardown() throws Exception{
-            onView(withContentDescription("Open navigation drawer")).check(matches(isDisplayed())).perform(click());
-            onView(withId(R.id.design_menu_item_text)).check(matches(isDisplayed())).perform(click());
+           // onView(withContentDescription("Open navigation drawer")).check(matches(isDisplayed())).perform(click());
+            //onView(withId(R.id.design_menu_item_text)).check(matches(isDisplayed())).perform(click());
         }
 }
